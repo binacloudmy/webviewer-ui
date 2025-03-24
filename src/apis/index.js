@@ -308,6 +308,7 @@ import importModularComponents from './importModularComponents';
 import setScaleOverlayPosition from './setScaleOverlayPosition';
 import setPanels from './setPanels';
 import getPanels from './getPanels';
+import setCreateSignatureButton from './setCreateSignatureButton';
 import getActiveRibbonItem from './getActiveRibbonItem';
 import setActiveRibbonItem from './setActiveRibbonItem';
 import closeTooltip from './closeToolTip';
@@ -410,6 +411,7 @@ export default (store) => {
     setFontPath,
     getFontPath,
     setPrintQuality: setPrintQuality(store),
+    setCreateSignatureButton: setCreateSignatureButton(store),
     setDefaultPrintOptions: setDefaultPrintOptions(store),
     setNotesPanelSortStrategy: setNotesPanelSortStrategy(store),
     setSwipeOrientation,
